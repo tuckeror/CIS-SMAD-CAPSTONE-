@@ -32,8 +32,8 @@
                         <img class="img-responsive img-rounded" src="images/adminpic.jpeg" width="20px" height="20px" alt="User picture">
                     </div>
                     <div class="user-info">
-                        <span class="user-name"><strong>Olivia</strong>
-                            <strong>Tucker</strong>
+                        <span class="user-name"><strong>Thomas</strong>
+                            <strong>Valley</strong>
                         </span>
                         <span class="user-role">Administrator</span>
                         <span class="user-status">
@@ -58,10 +58,8 @@
                 <!-- sidebar-search  -->
                 <div class="sidebar-menu">
                     <ul>
-                        <li class="header-menu">
-                            <span>Home</span>
-                        </li>
-                        <li class="sidebar-dropdown">
+                
+                        <li>
                             <a href="index.html">
                                 <i class="fa fa-tachometer-alt"></i>
                                 <span>Dashboard</span>
@@ -69,37 +67,34 @@
                             </a>
 
                         </li>
-                        <li class="sidebar-dropdown">
+
+
+                        <li>
+                            <a href="newcustomer.html">
+                                <i class="fa fa-book"></i>
+                                <span>New Customer</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="calendar.html">
+                                <i class="fa fa-chart-line"></i>
+                                <span>Calendar</span>
+                            </a>
+                        </li>
+                        
+
+                        <li>
+
                             <a href="customerprofiles.html">
                                 <i class="fa fa-shopping-cart"></i>
                                 <span>Customer Profiles</span>
                             </a>
                     
                         </li>
-
-                        <li class="sidebar-dropdown">
-                            <a href="calendar.html">
-                                <i class="fa fa-chart-line"></i>
-                                <span>Calendar</span>
-                            </a>
-                        </li>
-
-                        <li class="sidebar-dropdown">
-                            <a href="quicklinks.html">
-                                <i class="fa fa-globe"></i>
-                                <span>Quick Links</span>
-                            </a>
-
-                        </li>
-                        <li class="header-menu">
-                            <span>Other</span>
-                        </li>
-                        <li>
-                            <a href="statusupdates.html">
-                                <i class="fa fa-book"></i>
-                                <span>Status Updates</span>
-                            </a>
-                        </li>
+                        
+                        
                         <li>
                             <a href="logoff.html">
                                 <i class="fa fa-calendar"></i>
@@ -108,33 +103,34 @@
                         </li>
                     </ul>
                 </div>
+
                 <!-- sidebar-menu  -->
+                    <a href="#" class="btn-info btn-lg">
+                      <span class="glyphicon-log-out"></span> Log out
+                  </a>
             </div>
             <!-- sidebar-content  -->
         </nav>
         
         
-        
-        
-        
         <!-- sidebar-wrapper  -->
         <main class="page-content">
             <div class="container-fluid">
-                <h2>Green Valley Auction Dashboard</h2>
+                <h2>Dashboard</h2>
                 <hr>
 
-                <!--Top of page 3 function buttons-->
+                <!--Top of page 2 function buttons-->
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="dbox dbox--color-1">
                                 <div class="dbox__icon">
                                     <i class="glyphicon glyphicon-cloud"></i>
                                 </div>
                                 <div class="dbox__body">
-                                    <span class="dbox__count">Calendar</span>
-                                    <span class="dbox__title"> To Calendar</span>
+                                    <a href="calendar.html">
+                                    <span class="dbox__count">Calendar</span></a>
                                 </div>
 
                                 <div class="dbox__action">
@@ -142,41 +138,37 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="dbox dbox--color-2">
                                 <div class="dbox__icon">
                                     <i class="glyphicon glyphicon-download"></i>
                                 </div>
                                 <div class="dbox__body">
+                                    <a href="newcustomer.html">
                                     <span class="dbox__count">New Customer</span>
-                                    <span class="dbox__title">Personal Details</span>
                                 </div>
 
                                 <div class="dbox__action">
-                                    <button class="dbox__action__btn"><a href="customerprofiles.html">Add New Customer</a></button>
+                                    <button class="dbox__action__btn"><a href="newcustomer.html">Add New Customer</a></button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="dbox dbox--color-3">
-                                <div class="dbox__icon">
-                                    <i class="glyphicon glyphicon-heart"></i>
-                                </div>
-                                <div class="dbox__body">
-                                    <span class="dbox__count">Today's Status Updates</span>
-                                    <span class="dbox__title">Check Notifications</span>
-                                </div>
-
-                                <div class="dbox__action">
-                                    <button class="dbox__action__btn"><a href="statusupdates.html">Updates</a></button>
-                                </div>
-                            </div>
-                        </div>
+                        </div>    
                     </div>
                 </div>
 
 
                 <!--Customer profile Table-->
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="table">
+
+                <div class="Master-List-Header">
+                <h3>Master List of Customers</h3>
+                </div>
+
                 <table class="table table-hover">
                     <thead>
                         <tr>
@@ -227,11 +219,12 @@
                         </tr>
                     </tbody>
                 </table>
-            
- 
             </div>
-        </main>
+        </div>
+        </div>
     </div>
+</main>
+
 </body>
 
 </html>
@@ -241,3 +234,4 @@
 <!--using a hosted version of p5.js-->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
 <script src="js/customorders.js"></script>
+
