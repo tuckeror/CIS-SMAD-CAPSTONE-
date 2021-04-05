@@ -311,6 +311,7 @@ body {
   right: 17px;
 }
 
+
 /*--------------------------side-footer------------------------------*/
 
 .sidebar-footer {
@@ -518,7 +519,7 @@ h4{
     text-align:center;
 }
 
-/*-----------------------------top three boxes-------------------------------------------------*/
+/*-----------------------------top two boxes-------------------------------------------------*/
 
 .dbox {
     position: relative;
@@ -535,17 +536,14 @@ h4{
 
 .dbox__body {
     padding: 50px 20px;
+    background-color: #FFC736;
+    border-radius: 4px;
 }
 .dbox__count {
     display: block;
     font-size: 30px;
     color: #FFF;
     font-weight: 300;
-}
-.dbox__title {
-    font-size: 13px;
-    color: #FFF;
-    color: rgba(255, 255, 255, 0.81);
 }
 .dbox__action {
     transform: translateY(-50%) translateX(-50%);
@@ -562,7 +560,19 @@ h4{
     font-size: 11px;
     letter-spacing: .5px;
     color: #003e85;
-    box-shadow: 0 3px 5px #d4d4d4;
+    box-shadow: 0 3px 5px #E7E7E7;
+}
+
+/*-----------------------------customer dashboard table-------------------------------------------------*/
+
+.table {
+  background-color: #F1E9D6;
+  border-radius: 6px;
+  box-shadow: 0 3px 5px #E7E7E7;
+}
+
+.table h3 {
+  text-align: center;
 }
 
 
@@ -579,5 +589,6 @@ a:hover
      text-decoration:none; 
      cursor:pointer;  
 }
+
 
 
